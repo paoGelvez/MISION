@@ -1,0 +1,36 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+.totalPadre{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+table{
+    padding: 2vmin;
+     border-radius:2% ;
+    background-color: rgba(0, 0, 0, 0.411);
+   
+}
+thead{
+  
+    text-transform: uppercase;
+}
+th{
+   padding: 1vmin 4vmin;
+   
+    border-radius: 5vmin;
+    font-size: 1.5rem;
+}
+td{
+    border: solid;
+    padding: 1vmax 3vmax;
+    font-size: 2rem;
+}

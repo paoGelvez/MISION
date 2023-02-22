@@ -1,5 +1,12 @@
-PORT = 3000
-DB_HOST = localhost
-DB_PORT = 3306
-DB_USER=root
-DB_DATABASE = misionfinal
+import {createPool} from 'mysql2/promise';
+// import dotenv from 'dotenv';
+// dotenv.config({path : '.env'});
+
+
+export const pool = createPool({
+    host: 'localhost',
+    user: "root",
+    password: '',
+    port: 3306,
+    database: 'misionfinal'
+});
